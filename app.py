@@ -4,7 +4,7 @@ import re
 import zipfile
 import unicodedata
 from typing import Optional
-from PyPDF2 import PdfReader, PdfWriter
+from pypdf import PdfReader, PdfWriter
 
 
 def limpiar_para_archivo(s: str) -> str:
